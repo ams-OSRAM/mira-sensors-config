@@ -1,2 +1,4 @@
 * text=auto
 *.cfg text eol=crlf
+*.sh text eol=lf
+VERSION text eol=lf

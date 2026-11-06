@@ -56,3 +56,14 @@ the Arducam Camera GUI: load it in its ISP panel.
 
 Add the `.cfg` (and an ISP YAML if you have one) under `sensors/<sensor>/` and list it in that
 sensor's `sensor.yaml`. Files that aren't listed in a `sensor.yaml` are ignored by the GUI.
+
+## Releases
+
+Config releases use calendar versioning, `YYYY.MM.N`: year, month, and a counter for releases within
+that month (`2026.11.0`, `2026.11.1`, `2026.12.0`). The version is in `VERSION` and tagged
+`v<version>`; the Indie Image Sensor Evaluation app shows it next to each sensor. To release, commit
+your changes, then:
+
+```bash
+bash release.sh --push
+```
