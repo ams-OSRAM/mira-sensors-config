@@ -26,7 +26,10 @@ frame rate and exposure controls):
 | Control | Register | Notes |
 | --- | --- | --- |
 | Exposure | `EXP_TIME_L` (bank 1, 0x000E) | In time units of the mode, about 1 us |
-| Analog Gain | `BIAS_RG_ADCGAIN` (bank 0, 0x01F0) | Raw ADC gain code, 0-63. Higher is more gain |
+| Analog Gain | `BIAS_RG_ADCGAIN` + `BIAS_RG_MULT` (bank 0, 0x01F0 / 0x01F3) | 1000 = 1x (the mode's own setting) up to 4000 = 4x |
+
+Analog gain scales the ADC ramp: the gain is proportional to 1 / ((BIAS_RG_ADCGAIN + 21) * 2^BIAS_RG_MULT),
+which matches the sensors' gain tables to within 0.5 %. The black level can shift slightly with gain.
 
 The 200x200 and 100x100 Mira016 modes also switch between cropped, subsampled and binned readout,
 and set black level and orientation.
