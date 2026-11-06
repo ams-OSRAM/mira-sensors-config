@@ -6,9 +6,9 @@ on Arducam USB camera shields. They're used by the Arducam Camera GUI (AI-ISP ed
 
 | Sensor | Modes |
 | --- | --- |
-| Mira016 | 400x400, 200x200 and 100x100, RAW8/RAW10 |
-| Mira050 | 600x800, RAW8/RAW10 |
-| Mira220 | 1600x1400, 1280x720, 640x480 and 400x400, RAW10/RAW12 |
+| Mira016 | 400x400, 200x200 and 100x100, RAW8/RAW10, mono |
+| Mira050 | 600x800, RAW8/RAW10, mono |
+| Mira220 | 1600x1400, 1280x720, 640x480 and 400x400, RAW10/RAW12; each mode as mono (`_mono`), RGB (`_rgb`, Bayer GBRG) and RGB-IR (`_rgbir`) |
 
 ## Hardware
 
