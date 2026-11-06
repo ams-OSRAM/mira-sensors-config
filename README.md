@@ -64,6 +64,8 @@ that month (`2026.11.0`, `2026.11.1`, `2026.12.0`). The version is in `VERSION` 
 `v<version>`; the Indie Image Sensor Evaluation app shows it next to each sensor. To release, commit
 your changes, then:
 
-```bash
-bash release.sh --push
+```powershell
+powershell -ExecutionPolicy Bypass -File release.ps1 -Push   # Windows
 ```
+
+or `bash release.sh --push` on Linux.
