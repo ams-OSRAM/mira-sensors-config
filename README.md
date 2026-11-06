@@ -10,6 +10,12 @@ on Arducam USB camera shields. They're used by the Arducam Camera GUI (AI-ISP ed
 | Mira050 | 600x800, RAW8/RAW10 |
 | Mira220 | 1600x1400, 1280x720, 640x480 and 400x400, RAW10/RAW12 |
 
+## Hardware
+
+The configs work on both the Arducam USB3 Camera Shield and the USB3 Camera Shield Pro: they use the
+Pro board settings, which the older shield accepts too. Connect the shield with a USB 3 cable to a
+USB 3 port. Over USB 2.0 the readout overflows the shield and no frames arrive.
+
 ## Layout
 
 ```
