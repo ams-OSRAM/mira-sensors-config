@@ -29,7 +29,11 @@ frame rate and exposure controls):
 | Analog Gain | `BIAS_RG_ADCGAIN` + `BIAS_RG_MULT` (bank 0, 0x01F0 / 0x01F3) | 1000 = 1x (the mode's own setting) up to 4000 = 4x |
 
 Analog gain scales the ADC ramp: the gain is proportional to 1 / ((BIAS_RG_ADCGAIN + 21) * 2^BIAS_RG_MULT),
-which matches the sensors' gain tables to within 0.5 %. The black level can shift slightly with gain.
+which matches the sensors' gain tables to within 0.5 %. Measured on a Mira050 (all three modes), the
+signal follows the requested gain to within 3 % from 1x to 3x. The black level is not compensated:
+it rises with gain (in 10-bit mode from about 38 at 1x to about 440 at 3x), so set the ISP black
+level to match. Mira050 frames come out white below the minimum exposure (about 70-90 time units,
+depending on the mode), which is the slider's lower limit.
 
 The 200x200 and 100x100 Mira016 modes also switch between cropped, subsampled and binned readout,
 and set black level and orientation.
