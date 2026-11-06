@@ -1,0 +1,10 @@
+black_level: 3719
+white_level: 55264
+gamma: srgb
+demosaic: bilinear
+ir_blend: 0.0
+wb_gains: [2.6004, 1.0, 1.3697]
+ccm:
+- [1.241, -0.0436, -0.21]
+- [-0.405, 1.602, -0.202]
+- [0.0455, -0.63, 1.648]

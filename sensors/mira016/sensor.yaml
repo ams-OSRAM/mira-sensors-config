@@ -1,0 +1,10 @@
+sensor: Mira016
+modes:
+  - {name: "400x400 RAW10, 800 Mbps",                  cfg: 1_MIRA016_MIPI_RAW10_400x400_800mbps_generated_api_new.cfg, status: released}
+  - {name: "400x400 RAW8, 650 Mbps",                   cfg: 2_MIRA016_MIPI_RAW8_400x400_650mbps_newapi.cfg,             status: released}
+  - {name: "400x400 RAW10, 750 Mbps, max fps (master)", cfg: 3_MIRA016_MIPI_RAW10_400x400_750mbps_maxxed_master.cfg,     status: beta}
+  - {name: "400x400 RAW10, 750 Mbps, max fps (slave)",  cfg: 3b_MIRA016_MIPI_RAW10_400x400_750mbps_maxxed_slave.cfg,     status: beta}
+  - {name: "200x200 RAW10, 800 Mbps",                  cfg: 5a_MIRA016__RAW10_200x200allmodes_800mbps.cfg,              status: released}
+  - {name: "200x200 RAW8, 800 Mbps",                   cfg: 5b_MIRA016__RAW8_200x200allmodes_800mbps.cfg,               status: released}
+  - {name: "100x100 RAW10, binning + subsampling",     cfg: 5c_RAW10_100x100_binsubs.cfg,                               status: released}
+  - {name: "100x100 RAW8, binning + subsampling",      cfg: 5d_RAW8_100x100_binsubs.cfg,                                status: released}

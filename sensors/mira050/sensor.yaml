@@ -1,0 +1,5 @@
+sensor: Mira050
+modes:
+  - {name: "600x800 RAW10",           cfg: MIRA050_MIPI_RAW10_600x800.cfg,          status: released}
+  - {name: "600x800 RAW8, 600 Mbps",  cfg: MIRA050_MIPI_RAW8_600x800_600mbps.cfg,   status: released}
+  - {name: "600x800 RAW8, 900 Mbps",  cfg: MIRA050_MIPI_RAW8_600x800_900mbps.cfg,   status: released}
