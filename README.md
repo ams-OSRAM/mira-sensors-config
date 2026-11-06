@@ -20,14 +20,13 @@ sensors/<sensor>/isp/*.yaml      ISP tuning (black/white level, white balance, C
 
 ## Controls
 
-Every Mira016 and Mira050 mode has these sliders in the camera controls panel (Mira220 has its own
+Every Mira016 and Mira050 mode has exposure and analog gain sliders in the camera controls panel (Mira220 has its own
 frame rate and exposure controls):
 
 | Control | Register | Notes |
 | --- | --- | --- |
 | Exposure | `EXP_TIME_L` (bank 1, 0x000E) | In time units of the mode, about 1 us |
 | Analog Gain | `BIAS_RG_ADCGAIN` (bank 0, 0x01F0) | Raw ADC gain code, 0-63. Higher is more gain |
-| Digital Gain | `GDIG_AMP` (bank 1, 0x0024) | Raw code, 0-255 |
 
 The 200x200 and 100x100 Mira016 modes also switch between cropped, subsampled and binned readout,
 and set black level and orientation.
