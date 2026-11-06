@@ -1,8 +1,8 @@
 sensor: Mira220
 modes:
-  - {name: "1600x1400 RAW12, 2-lane, 80 fps",    cfg: mira220_1600x1400_raw12_2lane_80fps.cfg,                     isp: isp/mira220.yaml, status: released}
-  - {name: "1600x1400 RAW10, 2-lane",            cfg: mira220_1600x1400_raw10_2lane.cfg,       isp: isp/mira220.yaml, status: released}
-  - {name: "1600x1400 RAW10, 1-lane",            cfg: mira220_1600x1400_raw10_1lane.cfg,       isp: isp/mira220.yaml, status: released}
-  - {name: "1280x720 RAW12, 2-lane, 90 fps",     cfg: mira220_1280x720_raw12_2lane_90fps.cfg,   isp: isp/mira220.yaml, status: released}
-  - {name: "640x480 RAW12, 2-lane, 80 fps",      cfg: mira220_640x480_raw12_2lane_80fps.cfg,                     isp: isp/mira220.yaml, status: released}
-  - {name: "400x400 RAW12, 2-lane, 160 fps",     cfg: mira220_400x400_raw12_2lane_160fps.cfg,                isp: isp/mira220.yaml, status: released}
+  - {name: "1600x1400 RAW12, 2-lane, 80 fps", cfg: mira220_1600x1400_raw12_2lane_80fps.cfg, isp: isp/mira220.yaml, status: released}
+  - {name: "1600x1400 RAW10, 2-lane",         cfg: mira220_1600x1400_raw10_2lane.cfg,       isp: isp/mira220.yaml, status: released}
+  - {name: "1600x1400 RAW10, 1-lane",         cfg: mira220_1600x1400_raw10_1lane.cfg,       isp: isp/mira220.yaml, status: released}
+  - {name: "1280x720 RAW12, 2-lane, 90 fps",  cfg: mira220_1280x720_raw12_2lane_90fps.cfg,  isp: isp/mira220.yaml, status: released}
+  - {name: "640x480 RAW12, 2-lane, 80 fps",   cfg: mira220_640x480_raw12_2lane_80fps.cfg,   isp: isp/mira220.yaml, status: released}
+  - {name: "400x400 RAW12, 2-lane, 160 fps",  cfg: mira220_400x400_raw12_2lane_160fps.cfg,  isp: isp/mira220.yaml, status: released}

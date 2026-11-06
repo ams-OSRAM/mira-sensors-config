@@ -1,10 +1,10 @@
 sensor: Mira016
 modes:
-  - {name: "400x400 RAW10, 800 Mbps",                  cfg: mira016_400x400_raw10_800mbps.cfg, status: released}
-  - {name: "400x400 RAW8, 650 Mbps",                   cfg: mira016_400x400_raw8_650mbps.cfg,             status: released}
-  - {name: "400x400 RAW10, 750 Mbps, max fps (master)", cfg: mira016_400x400_raw10_750mbps_maxfps_master.cfg,     status: beta}
-  - {name: "400x400 RAW10, 750 Mbps, max fps (slave)",  cfg: mira016_400x400_raw10_750mbps_maxfps_slave.cfg,     status: beta}
-  - {name: "200x200 RAW10, 800 Mbps",                  cfg: mira016_200x200_raw10_800mbps.cfg,              status: released}
-  - {name: "200x200 RAW8, 800 Mbps",                   cfg: mira016_200x200_raw8_800mbps.cfg,               status: released}
-  - {name: "100x100 RAW10, binning + subsampling",     cfg: mira016_100x100_raw10_binsubs.cfg,                               status: released}
-  - {name: "100x100 RAW8, binning + subsampling",      cfg: mira016_100x100_raw8_binsubs.cfg,                                status: released}
+  - {name: "400x400 RAW10, 800 Mbps",                   cfg: mira016_400x400_raw10_800mbps.cfg,               status: released}
+  - {name: "400x400 RAW8, 650 Mbps",                    cfg: mira016_400x400_raw8_650mbps.cfg,                status: released}
+  - {name: "400x400 RAW10, 750 Mbps, max fps (master)", cfg: mira016_400x400_raw10_750mbps_maxfps_master.cfg, status: beta}
+  - {name: "400x400 RAW10, 750 Mbps, max fps (slave)",  cfg: mira016_400x400_raw10_750mbps_maxfps_slave.cfg,  status: beta}
+  - {name: "200x200 RAW10, 800 Mbps",                   cfg: mira016_200x200_raw10_800mbps.cfg,               status: released}
+  - {name: "200x200 RAW8, 800 Mbps",                    cfg: mira016_200x200_raw8_800mbps.cfg,                status: released}
+  - {name: "100x100 RAW10, binning + subsampling",      cfg: mira016_100x100_raw10_binsubs.cfg,               status: released}
+  - {name: "100x100 RAW8, binning + subsampling",       cfg: mira016_100x100_raw8_binsubs.cfg,                status: released}
